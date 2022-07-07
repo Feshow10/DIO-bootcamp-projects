@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha Página</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/globallabs.jpg" alt="Logo GlobalLabs" width="150" height="150">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quemsomos">Quem Somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="quemsomos">
+            <div class="container-fluid quemsomos text-center margin">
+                <h3>Quem Somos?</h3>
+                <img src="img/pexels-alyona-pastukhova-11581863.jpg" class="rounded-circle" width="200" height="200">
+                <h3 class="margin">Somos um time comprometido com os resultados</h3>
+            </div>
+        </section>
+
+        <selection id="parceiros">
+            <div class="container-fluid text-center margin parceiros">
+                <h3 class="margin">Parceiros</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/dio.png" alt="Imagem de Parceiros" class="rounded-circle" width="200" height="200">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/pexels-diana-vorobevaattyakova-11041919.jpg" alt="Imagem de Parceiros" class="rounded-circle" width="200" height="200">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/pexels-musa-ortaç-11629663.jpg" alt="Imagem de Parceiros" class="rounded-circle" width="200" height="200">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </selection>
+
+        <section id="servicos">
+            <div class="container-fluid text-center margin servicos">
+                <h3 class="margin">Serviços</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ex augue, porttitor at eros id, facilisis facilisis tellus. Cras sed semper tellus. Vivamus fermentum vulputate pulvinar. Suspendisse potenti. Nam quis placerat leo. Nam dui dui, sollicitudin ac euismod sit amet, accumsan in nisl. Pellentesque rutrum vulputate vehicula. Vivamus porttitor in velit eget ultricies. Duis rutrum dictum lacinia. Sed eget mauris elementum, maximus risus eget, interdum metus.</p>
+                            <img src="img/pexels-arina-dmitrieva-11476518.jpg" alt="Imagem de Parceiros" class="rounded-circle" width="200" height="200">
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Sed tempor diam at odio bibendum accumsan. Aenean id ipsum nec neque condimentum venenatis. Morbi ultrices dui a nisl tristique viverra. Vestibulum dictum nisl eu egestas fermentum. Nulla volutpat elementum risus. Phasellus sollicitudin risus in turpis luctus, eget fermentum ligula tristique. Sed tortor est, efficitur sit amet ornare at, bibendum at justo. Proin interdum eros finibus orci dapibus, eget sodales velit aliquet.</p>
+                            <img src="img/pexels-milada-vigerova-5989068.jpg" alt="Imagem de Parceiros" class="rounded-circle" width="200" height="200">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p class="container-fluid margin text-center bg-footer">Desenvolvido por Felipe Marques de Araujo</p>
+        </footer>
+
+    </body>
+</html>
